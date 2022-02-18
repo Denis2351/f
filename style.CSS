@@ -1,0 +1,132 @@
+header, footer {
+    background-color: #38b6ff;
+    padding: 10px;
+  }
+  
+  main {
+    padding: 10px;
+    background-color: silver;
+    margin-top: 35px;
+  }
+  
+  .post {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 300px;
+    display: inline-block;
+    width: 570px;
+  }
+  
+  .post img {
+    margin: 20px;
+    float: left;
+    border-radius: 20px;
+  }
+  .img1 {
+    border-top: 3px solid firebrick;
+    border-right: 3px solid firebrick;
+    border-bottom: 3px solid lightskyblue;
+    border-left: 3px solid lightskyblue;
+  }
+
+  .img2 {
+    border-top: 3px solid yellow;
+    border-right: 3px solid yellow;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+  }
+
+  .img3 {
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid rgb(0, 162, 255);
+    border-left: 3px solid rgb(0, 162, 255);
+  }
+
+  .img4 {
+    border: 3px solid black;
+  }
+
+  .footer-columns {
+    display: flex;
+  }
+  
+  .footer-column {
+    flex: 50%;
+    margin: 20px;
+  }
+
+  #menu1 {
+    position: relative;
+    display: black;
+    width: 100%;
+    height: auto;
+}
+
+#menu1 ul {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    list-style: none;
+}
+
+#menu1 ul li {
+    position: relative;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+#menu1 ul li a {
+    display: block;
+    padding: 9px 25px 0 25px;
+    font-size: 14px;
+    line-height: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 36px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(42, 42, 177);
+}
+
+#menu1 ul li ul {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    display: none;
+    width: 200px;
+    background: firebrick;
+}
+
+#menu1 ul li:hover ul {
+    display: block;
+}
+
+#menu1 ul li ul li a {
+    display: block;
+    text-transform: none;
+    height: auto;
+    padding: 7px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    color: white;
+    background: rgb(20, 159, 214);
+}
+
+#menu1 ul li ul li {
+    float: none;
+    width: 100%;
+}
+.text {
+  font-size: 20px;
+}
+  
